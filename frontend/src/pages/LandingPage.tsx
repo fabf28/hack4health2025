@@ -59,8 +59,7 @@ export default function LandingPage() {
         <div style={styles.heroInner}>
           <h1 style={styles.h1}>Faster Wound Intake, Better Care</h1>
           <p style={styles.lead}>
-            A simple landing page for your medical web app. Patients can start a
-            secure intake form to describe their wound, upload photos, and share history.
+            Patients can start a secure intake form to describe their wound, upload photos, and share history.
           </p>
           <div>
             <a href="/patient-form" style={styles.ctaBtn} aria-label="Open the patient intake form">
@@ -76,12 +75,16 @@ export default function LandingPage() {
           <h2 style={styles.h2}>Why SafeTriage</h2>
           <ul style={styles.featureGrid}>
             <li style={styles.featureCard}>
-              <h3 style={styles.h3}>Secure & Private</h3>
-              <p>HIPAA-friendly architecture, encrypted transport, and scoped access.</p>
+              <h3 style={styles.h3}>Built for Care & Private</h3>
+              <p>We use minimal info to connect you to the right wound care resources.</p>
             </li>
             <li style={styles.featureCard}>
-              <h3 style={styles.h3}>Photo Uploads</h3>
-              <p>Patients can attach wound photos to help clinicians triage faster.</p>
+              <h3 style={styles.h3}>Photo Uploads with AI</h3>
+              <p>Uploaded images are analyzed with AI to assist triage — and can be reviewed later by your care team.</p>
+            </li>
+            <li style={styles.featureCard}>
+              <h3 style={styles.h3}>Chatbot</h3>
+              <p> Chatbot helps you describe symptoms naturally.</p>
             </li>
             <li style={styles.featureCard}>
               <h3 style={styles.h3}>Real-time Status</h3>
@@ -200,6 +203,7 @@ const styles = {
     padding: "18px 0",
   },
 };
+
 
 
 
