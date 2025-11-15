@@ -1,0 +1,149 @@
+{
+    "WaitTimes": {
+        "calgary": {
+            "albertachildrenshospital": {
+                "name": "Alberta Children's Hospital",
+                "note": "Open 24 hours for patients 17 &amp; under (two adult family/support persons allowed)"
+            },
+            "foothillsmedicalcentre": {
+                "name": "Foothills Medical Centre",
+                "note": "Open 24 hours<br />For patients 15 and older"
+            },
+            "peterlougheedcentre": {
+                "name": "Peter Lougheed Centre",
+                "note": "Open 24 hours"
+            },
+            "rockyviewgeneralhospital": {
+                "name": "Rockyview General Hospital",
+                "note": "Open 24 hours<br />"
+            },
+            "southhealthcampus": {
+                "name": "South Health Campus",
+                "note": "Open 24 hours for all patients with pediatrician specialty from 11 am – 11 pm"
+            },
+            "southcalgaryhealthcentre": {
+                "name": "South Calgary Health Centre",
+                "note": "8 am – 8 pm"
+            },
+            "sheldonmchumircentre": {
+                "name": "Sheldon M. Chumir Centre",
+                "note": "Open 24 hours"
+            },
+            "airdriecommunityhealthcentre": {
+                "name": "Airdrie Community Health Centre",
+                "note": "Open 24 hours "
+            },
+            "cochranecommunityhealthcentre": {
+                "name": "Cochrane Community Health Centre",
+                "note": "8 am – 10 pm"
+            },
+            "okotokshealthandwellnesscentre": {
+                "name": "Okotoks Health and Wellness Centre",
+                "note": "8 am – 10 pm"
+            }
+        },
+        "edmonton": {
+            "devongeneralhospital": {
+                "name": "Devon General Hospital",
+                "note": "Open 24 hours"
+            },
+            "eastedmontonhealthcentre": {
+                "name": "East Edmonton Health Centre",
+                "note": "5 - 10:30 pm <br />(weekends / holidays 3 - 10:30 pm)"
+            },
+            "fortsaskcommunityhospital": {
+                "name": "Fort Sask Community Hospital",
+                "note": "Open 24 hours"
+            },
+            "greynunscommunityhospital": {
+                "name": "Grey Nuns Community Hospital",
+                "note": "Open 24 hours"
+            },
+            "leduccommunityhospital": {
+                "name": "Leduc Community Hospital",
+                "note": "Open 24 hours"
+            },
+            "misericordiacommunityhospital": {
+                "name": "Misericordia Community Hospital",
+                "note": "Open 24 hours"
+            },
+            "northeastcommunityhealthcentre": {
+                "name": "Northeast Community Health Centre",
+                "note": "Open 24 hours"
+            },
+            "royalalexandrahospital": {
+                "name": "Royal Alexandra Hospital",
+                "note": "Open 24 hours"
+            },
+            "stollerychildrenshospital": {
+                "name": "Stollery Children's Hospital",
+                "note": "Open 24 hours for patients 17 &amp; under (one adult family/support person allowed)"
+            },
+            "strathconacommunityhospital": {
+                "name": "Strathcona Community Hospital",
+                "note": "Open 24 hours<br />This location is in Sherwood Park"
+            },
+            "sturgeoncommunityhospital": {
+                "name": "Sturgeon Community Hospital",
+                "note": "Open 24 hours<br />This location is in St. Albert"
+            },
+            "universityofalbertahospital": {
+                "name": "University of Alberta Hospital",
+                "note": "Open 24 hours"
+            },
+            "westviewhealthcentre": {
+                "name": "WestView Health Centre",
+                "note": "Open 24 hours<br />This location is in Stony Plain"
+            }
+        },
+        "lethbridge": {
+            "chinookregionalhospital": {
+                "name": "Chinook Regional Hospital",
+                "note": "Open 24 hours"
+            }
+        },
+        "medicinehat": {
+            "medicinehatregionalhospital": {
+                "name": "Medicine Hat Regional Hospital",
+                "note": "Open 24 hours"
+            }
+        },
+        "reddeer": {
+            "reddeerregionalhospital": {
+                "name": "Red Deer Regional Hospital",
+                "note": "Open 24 hours"
+            },
+            "innisfailhealthcentre": {
+                "name": "Innisfail Health Centre",
+                "note": "Open 24 hours"
+            },
+            "lacombehospitalandcarecentre": {
+                "name": "Lacombe Hospital and Care Centre",
+                "note": "Open 24 hours"
+            }
+        },
+        "grandeprairie": {
+            "grandeprairieregionalhospital": {
+                "name": "Grande Prairie Regional Hospital",
+                "note": "Open 24 hours"
+            }
+        },
+        "fortmcmurray": {
+            "northernlightsregionalhealthcentre": {
+                "name": "Northern Lights Regional Health Centre",
+                "note": "Open 24 hours"
+            }
+        }
+    },
+    "Cities": [
+        {
+            "calgary": "Calgary and area",
+            "edmonton": "Edmonton and area",
+            "lethbridge": "Lethbridge",
+            "medicinehat": "Medicine Hat",
+            "reddeer": "Red Deer",
+            "grandeprairie": "Grande Prairie",
+            "fortmcmurray": "Fort McMurray"
+        }
+    ]
+}
