@@ -449,8 +449,7 @@ const PatientForm: React.FC = () => {
                 marginBottom: "0.5rem",
               }}
             >
-              Use this box to jot down anything else you’d want a clinician to
-              know (demo only – not sent anywhere).
+              Frequently asked questions(FAQs)(demo only – not sent anywhere).
             </p>
             <div
               style={{
