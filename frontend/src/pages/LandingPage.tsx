@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 /**
  * Medical Web App — Landing Page (React)
@@ -13,9 +14,10 @@ import React from "react";
 
  */
 
-const logoSrc = "/logo.png"; 
+const logoSrc = "/logo.png";
 
 export default function LandingPage() {
+
   return (
     <div style={styles.page}>
       {/* Global smooth scroll & animations */}
@@ -41,7 +43,7 @@ export default function LandingPage() {
               className="logo-fade"
               onError={(e) => {
                 // hide broken image if logo not found; keep brand text visible
-                try { e.currentTarget.style.display = "none"; } catch (err) {}
+                try { e.currentTarget.style.display = "none"; } catch (err) { }
               }}
             />
             <span style={styles.brandText}>SafeTriage</span>
@@ -49,7 +51,7 @@ export default function LandingPage() {
           <nav style={styles.nav} aria-label="Main">
             <a href="#features" style={styles.navLink}>Features</a>
             <a href="#about" style={styles.navLink}>About</a>
-            <a href="/patient-form" style={{...styles.navLink, ...styles.primaryLink}}>Patient Form</a>
+            <a href="/patient" style={{ ...styles.navLink, ...styles.primaryLink }}>Patient Form</a>
           </nav>
         </div>
       </header>
@@ -62,7 +64,7 @@ export default function LandingPage() {
             Patients can start a secure intake form to describe their wound, upload photos, and share history.
           </p>
           <div>
-            <a href="/patient-form" style={styles.ctaBtn} aria-label="Open the patient intake form">
+            <a href="/patient" style={styles.ctaBtn} aria-label="Open the patient intake form">
               Patient Form
             </a>
           </div>
@@ -95,7 +97,7 @@ export default function LandingPage() {
       </section>
 
       {/* About (bottom) */}
-      <section id="about" style={{...styles.section, ...styles.about}}>
+      <section id="about" style={{ ...styles.section, ...styles.about }}>
         <div style={styles.sectionInner}>
           <h2 style={styles.h2}>About</h2>
           <p>
